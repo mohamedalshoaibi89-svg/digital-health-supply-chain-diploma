@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Health Supply Chain Diploma — a professional learning experience by the Unified Procurement Authority.">
+  <meta name="theme-color" content="#0b4f91">
+  <title>Digital Health Supply Chain Diploma | Unified Procurement Authority</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Unified Procurement Authority home">
+      <span class="brand-mark">UPA</span>
+      <span class="brand-copy"><strong>Unified Procurement Authority</strong><small>Learning & Development</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about" data-en="About" data-ar="عن البرنامج">About</a>
+      <a href="#objectives" data-en="Objectives" data-ar="الأهداف">Objectives</a>
+      <a href="#agenda" data-en="Agenda" data-ar="الجدول">Agenda</a>
+      <a href="#faculty" data-en="Faculty" data-ar="المحاضرون">Faculty</a>
+      <a href="#event" data-en="Event details" data-ar="تفاصيل الفعالية">Event details</a>
+    </nav>
+    <div class="header-actions">
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language">العربية</button>
+      <a class="button button-small button-outline" href="#register" data-en="Register" data-ar="سجّل الآن">Register</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="pulse"></span><span data-en="PROFESSIONAL DIPLOMA · 2026" data-ar="دبلومة مهنية · ٢٠٢٦">PROFESSIONAL DIPLOMA · 2026</span></div>
+        <h1 data-en="Digital Health<br><em>Supply Chain</em> Diploma" data-ar="دبلومة سلاسل الإمداد<br><em>للصحة الرقمية</em>">Digital Health<br><em>Supply Chain</em> Diploma</h1>
+        <p class="hero-lead" data-en="Building smarter, more resilient and data-driven healthcare supply chains." data-ar="نحو سلاسل إمداد صحية أكثر ذكاءً ومرونة واعتمادًا على البيانات.">Building smarter, more resilient and data-driven healthcare supply chains.</p>
+        <div class="hero-meta">
+          <span><b class="meta-icon">▦</b><span data-en="Starts 1 December 2026" data-ar="يبدأ ١ ديسمبر ٢٠٢٦">Starts 1 December 2026</span></span>
+          <span><b class="meta-icon">⌖</b><span data-en="Venue details to be announced" data-ar="سيتم الإعلان عن مكان الانعقاد لاحقًا">Venue details to be announced</span></span>
+        </div>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#register"><span data-en="Explore registration" data-ar="استكشف التسجيل">Explore registration</span><span aria-hidden="true"> ↗</span></a>
+          <a class="button button-ghost" href="#about" data-en="Discover the diploma" data-ar="اكتشف الدبلومة">Discover the diploma</a>
+        </div>
+        <div class="organizer-line"><span data-en="Presented by" data-ar="تنظيم">Presented by</span><strong>Unified Procurement Authority</strong></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract digital healthcare supply chain illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="visual-core"><span class="core-cross">✚</span><span>HEALTH<br>SUPPLY</span></div>
+        <div class="node node-a"><span>▤</span><small>DATA</small></div>
+        <div class="node node-b"><span>⌁</span><small>LOGISTICS</small></div>
+        <div class="node node-c"><span>✚</span><small>CARE</small></div>
+        <div class="node node-d"><span>◈</span><small>INSIGHT</small></div>
+        <div class="visual-caption"><span class="caption-dot"></span> CONNECTED · INTELLIGENT · RESILIENT</div>
+      </div>
+      <div class="hero-bottom"><span>01 / 05</span><span class="hero-bottom-line"></span><span data-en="LEARN · CONNECT · TRANSFORM" data-ar="تعلّم · تواصل · طوّر">LEARN · CONNECT · TRANSFORM</span></div>
+    </section>
+
+    <section class="countdown-section" aria-label="Countdown">
+      <div class="countdown-intro"><span class="section-kicker" data-en="THE JOURNEY BEGINS" data-ar="رحلة التعلم تبدأ">THE JOURNEY BEGINS</span><h2 data-en="Your next step in<br>digital health starts here." data-ar="خطوتك القادمة في<br>الصحة الرقمية تبدأ هنا.">Your next step in<br>digital health starts here.</h2></div>
+      <div class="countdown" id="countdown">
+        <div class="time-unit"><strong id="days">—</strong><span data-en="Days" data-ar="يوم">Days</span></div>
+        <div class="time-unit"><strong id="hours">—</strong><span data-en="Hours" data-ar="ساعة">Hours</span></div>
+        <div class="time-unit"><strong id="minutes">—</strong><span data-en="Minutes" data-ar="دقيقة">Minutes</span></div>
+        <div class="time-unit"><strong id="seconds">—</strong><span data-en="Seconds" data-ar="ثانية">Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="section-kicker" data-en="ABOUT THE DIPLOMA" data-ar="عن الدبلومة">ABOUT THE DIPLOMA</span>
+        <h2 data-en="Where healthcare meets<br><em>intelligent supply chains.</em>" data-ar="حيث تلتقي الرعاية الصحية<br><em>بسلاسل الإمداد الذكية.</em>">Where healthcare meets<br><em>intelligent supply chains.</em></h2>
+      </div>
+      <div class="about-copy">
+        <p data-en="The Digital Health Supply Chain Diploma is designed to strengthen the capabilities needed to plan, manage and transform healthcare supply chains in an increasingly digital environment. It brings together procurement, logistics, data, technology and healthcare operations in one applied learning journey." data-ar="تهدف دبلومة سلاسل الإمداد للصحة الرقمية إلى تعزيز القدرات اللازمة لتخطيط وإدارة وتطوير سلاسل الإمداد الصحية في بيئة رقمية متسارعة. وتجمع بين المشتريات والخدمات اللوجستية والبيانات والتكنولوجيا والعمليات الصحية في رحلة تعليمية تطبيقية متكاملة.">The Digital Health Supply Chain Diploma is designed to strengthen the capabilities needed to plan, manage and transform healthcare supply chains in an increasingly digital environment. It brings together procurement, logistics, data, technology and healthcare operations in one applied learning journey.</p>
+        <div class="about-stats">
+          <div><strong>01</strong><span data-en="Integrated learning journey" data-ar="رحلة تعليمية متكاملة">Integrated learning journey</span></div>
+          <div><strong>02</strong><span data-en="Digital-first perspective" data-ar="منظور رقمي متقدم">Digital-first perspective</span></div>
+          <div><strong>03</strong><span data-en="Applied healthcare focus" data-ar="تركيز تطبيقي على الرعاية الصحية">Applied healthcare focus</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section objectives-section" id="objectives">
+      <div class="section-heading centered">
+        <span class="section-kicker" data-en="LEARNING OUTCOMES" data-ar="مخرجات التعلم">LEARNING OUTCOMES</span>
+        <h2 data-en="What you will <em>gain</em>" data-ar="ما الذي <em>ستكتسبه</em>">What you will <em>gain</em></h2>
+        <p data-en="Build practical insight across the essential components of a modern health supply chain." data-ar="اكتسب رؤى عملية عبر المكونات الأساسية لسلاسل الإمداد الصحية الحديثة.">Build practical insight across the essential components of a modern health supply chain.</p>
+      </div>
+      <div class="objective-grid">
+        <article class="objective-card"><span class="card-number">01</span><div class="card-icon">⌘</div><h3 data-en="Understand digital health ecosystems" data-ar="فهم منظومات الصحة الرقمية">Understand digital health ecosystems</h3><p data-en="Explore how digital transformation reshapes healthcare operations and supply networks." data-ar="استكشف كيف يعيد التحول الرقمي تشكيل العمليات الصحية وشبكات الإمداد.">Explore how digital transformation reshapes healthcare operations and supply networks.</p></article>
+        <article class="objective-card"><span class="card-number">02</span><div class="card-icon">▤</div><h3 data-en="Strengthen procurement planning" data-ar="تعزيز تخطيط المشتريات">Strengthen procurement planning</h3><p data-en="Connect needs assessment, sourcing, contracting and procurement performance." data-ar="اربط بين تقييم الاحتياجات والتوريد والتعاقد وقياس أداء المشتريات.">Connect needs assessment, sourcing, contracting and procurement performance.</p></article>
+        <article class="objective-card"><span class="card-number">03</span><div class="card-icon">⌁</div><h3 data-en="Improve logistics and visibility" data-ar="تحسين الخدمات اللوجستية والرؤية">Improve logistics and visibility</h3><p data-en="Examine inventory, distribution, traceability and end-to-end supply visibility." data-ar="ادرس المخزون والتوزيع والتتبع والرؤية الشاملة لسلسلة الإمداد.">Examine inventory, distribution, traceability and end-to-end supply visibility.</p></article>
+        <article class="objective-card"><span class="card-number">04</span><div class="card-icon">◈</div><h3 data-en="Use data for better decisions" data-ar="استخدام البيانات لاتخاذ قرارات أفضل">Use data for better decisions</h3><p data-en="Apply data analytics, dashboards and performance indicators to support decisions." data-ar="وظّف تحليلات البيانات ولوحات المعلومات ومؤشرات الأداء لدعم القرارات.">Apply data analytics, dashboards and performance indicators to support decisions.</p></article>
+        <article class="objective-card"><span class="card-number">05</span><div class="card-icon">⬡</div><h3 data-en="Manage risk and resilience" data-ar="إدارة المخاطر والمرونة">Manage risk and resilience</h3><p data-en="Identify vulnerabilities and explore continuity, preparedness and risk mitigation." data-ar="حدد مواطن الضعف واستكشف استمرارية الأعمال والاستعداد والحد من المخاطر.">Identify vulnerabilities and explore continuity, preparedness and risk mitigation.</p></article>
+        <article class="objective-card"><span class="card-number">06</span><div class="card-icon">✚</div><h3 data-en="Support better health outcomes" data-ar="دعم نتائج صحية أفضل">Support better health outcomes</h3><p data-en="Relate supply chain performance to availability, quality and continuity of care." data-ar="اربط أداء سلاسل الإمداد بتوافر المستلزمات والجودة واستمرارية الرعاية.">Relate supply chain performance to availability, quality and continuity of care.</p></article>
+      </div>
+    </section>
+
+    <section class="section agenda-section" id="agenda">
+      <div class="agenda-intro">
+        <span class="section-kicker" data-en="PROGRAM OUTLINE" data-ar="مخطط البرنامج">PROGRAM OUTLINE</span>
+        <h2 data-en="A learning journey<br>built around <em>impact.</em>" data-ar="رحلة تعليمية<br>ترتكز على <em>الأثر.</em>">A learning journey<br>built around <em>impact.</em></h2>
+        <p data-en="Explore the proposed learning themes. The final timetable, session sequence and durations will be confirmed by the organizer." data-ar="استكشف المحاور التعليمية المقترحة. وسيتم تأكيد الجدول النهائي وترتيب الجلسات ومددها من الجهة المنظمة.">Explore the proposed learning themes. The final timetable, session sequence and durations will be confirmed by the organizer.</p>
+        <div class="agenda-note">ⓘ <span data-en="Proposed agenda — subject to organizer confirmation." data-ar="جدول مقترح — يخضع لتأكيد الجهة المنظمة.">Proposed agenda — subject to organizer confirmation.</span></div>
+      </div>
+      <div class="agenda-list">
+        <details open><summary><span class="agenda-index">01</span><span data-en="Digital health & supply chain foundations" data-ar="أساسيات الصحة الرقمية وسلاسل الإمداد">Digital health & supply chain foundations</span><span class="plus">+</span></summary><p data-en="Digital health landscape, health supply chain architecture, stakeholders and operating models." data-ar="مشهد الصحة الرقمية، وهيكل سلاسل الإمداد الصحية، وأصحاب المصلحة ونماذج التشغيل.">Digital health landscape, health supply chain architecture, stakeholders and operating models.</p></details>
+        <details><summary><span class="agenda-index">02</span><span data-en="Strategic procurement & sourcing" data-ar="المشتريات الاستراتيجية والتوريد">Strategic procurement & sourcing</span><span class="plus">+</span></summary><p data-en="Demand planning, procurement strategy, supplier management, contracting and value." data-ar="تخطيط الطلب واستراتيجية المشتريات وإدارة الموردين والتعاقد وتحقيق القيمة.">Demand planning, procurement strategy, supplier management, contracting and value.</p></details>
+        <details><summary><span class="agenda-index">03</span><span data-en="Inventory, warehousing & distribution" data-ar="المخزون والتخزين والتوزيع">Inventory, warehousing & distribution</span><span class="plus">+</span></summary><p data-en="Inventory optimization, warehouse operations, distribution networks and product traceability." data-ar="تحسين المخزون وعمليات التخزين وشبكات التوزيع وتتبع المنتجات.">Inventory optimization, warehouse operations, distribution networks and product traceability.</p></details>
+        <details><summary><span class="agenda-index">04</span><span data-en="Digital systems, data & analytics" data-ar="النظم الرقمية والبيانات والتحليلات">Digital systems, data & analytics</span><span class="plus">+</span></summary><p data-en="Supply chain information systems, interoperability, dashboards, analytics and data governance." data-ar="نظم معلومات سلاسل الإمداد والتكامل ولوحات المعلومات والتحليلات وحوكمة البيانات.">Supply chain information systems, interoperability, dashboards, analytics and data governance.</p></details>
+        <details><summary><span class="agenda-index">05</span><span data-en="Risk management & supply chain resilience" data-ar="إدارة المخاطر ومرونة سلاسل الإمداد">Risk management & supply chain resilience</span><span class="plus">+</span></summary><p data-en="Risk assessment, business continuity, emergency preparedness and resilient supply strategies." data-ar="تقييم المخاطر واستمرارية الأعمال والاستعداد للطوارئ واستراتيجيات الإمداد المرنة.">Risk assessment, business continuity, emergency preparedness and resilient supply strategies.</p></details>
+        <details><summary><span class="agenda-index">06</span><span data-en="Performance, quality & improvement" data-ar="الأداء والجودة والتحسين">Performance, quality & improvement</span><span class="plus">+</span></summary><p data-en="KPIs, service levels, quality assurance, continuous improvement and applied case studies." data-ar="مؤشرات الأداء ومستويات الخدمة وضمان الجودة والتحسين المستمر ودراسات الحالة التطبيقية.">KPIs, service levels, quality assurance, continuous improvement and applied case studies.</p></details>
+      </div>
+    </section>
+
+    <section class="faculty-section" id="faculty">
+      <div class="faculty-inner">
+        <div><span class="section-kicker light" data-en="LEARN FROM PRACTICE" data-ar="تعلّم من الخبرة العملية">LEARN FROM PRACTICE</span><h2 data-en="Meet your <em>learning team.</em>" data-ar="تعرّف على <em>فريق التعلم.</em>">Meet your <em>learning team.</em></h2><p data-en="Trainer and facilitator profiles will be announced by the Unified Procurement Authority." data-ar="سيتم الإعلان عن ملفات المدربين والميسرين من خلال الهيئة المصرية للشراء الموحد.">Trainer and facilitator profiles will be announced by the Unified Procurement Authority.</p></div>
+        <div class="faculty-placeholder"><div class="avatar-placeholder">UPA</div><div><strong data-en="Trainers to be announced" data-ar="سيتم الإعلان عن المدربين">Trainers to be announced</strong><span data-en="Expert faculty · Industry practitioners · Guest speakers" data-ar="خبراء متخصصون · ممارسون · متحدثون ضيوف">Expert faculty · Industry practitioners · Guest speakers</span></div><span class="faculty-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="section event-section" id="event">
+      <div class="section-heading">
+        <span class="section-kicker" data-en="SAVE THE DATE" data-ar="احفظ الموعد">SAVE THE DATE</span>
+        <h2 data-en="Be part of the <em>next chapter.</em>" data-ar="كن جزءًا من <em>المرحلة القادمة.</em>">Be part of the <em>next chapter.</em></h2>
+      </div>
+      <div class="event-grid">
+        <div class="event-card">
+          <div class="event-row"><span class="event-icon">▦</span><div><small data-en="START DATE" data-ar="تاريخ البدء">START DATE</small><strong>Tuesday, 1 December 2026</strong></div></div>
+          <div class="event-row"><span class="event-icon">◷</span><div><small data-en="TIME" data-ar="الوقت">TIME</small><strong data-en="To be announced" data-ar="سيتم الإعلان عنه">To be announced</strong></div></div>
+          <div class="event-row"><span class="event-icon">⌖</span><div><small data-en="VENUE" data-ar="المكان">VENUE</small><strong data-en="To be announced by the organizer" data-ar="سيتم الإعلان عنه من الجهة المنظمة">To be announced by the organizer</strong></div></div>
+          <div class="event-actions"><button class="button button-primary" id="calendarButton" type="button" data-en="＋ Add to calendar" data-ar="＋ أضف إلى التقويم">＋ Add to calendar</button><button class="button button-outline" id="shareButton" type="button" data-en="↗ Share invitation" data-ar="↗ مشاركة الدعوة">↗ Share invitation</button></div>
+        </div>
+        <div class="map-card">
+          <div class="map-pattern"><span class="map-pin">⌖</span><span class="map-ring"></span><span class="map-grid-label">LOCATION / 00.0000° N</span></div>
+          <div class="map-caption"><strong data-en="Venue announcement pending" data-ar="في انتظار الإعلان عن المكان">Venue announcement pending</strong><p data-en="The venue and map location will be added once confirmed by the organizer." data-ar="ستتم إضافة مكان الانعقاد ورابط الخريطة فور تأكيدهما من الجهة المنظمة.">The venue and map location will be added once confirmed by the organizer.</p><span class="map-status"><i></i><span data-en="LOCATION TO BE CONFIRMED" data-ar="سيتم تأكيد الموقع">LOCATION TO BE CONFIRMED</span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-glow"></div>
+      <div class="register-content"><span class="section-kicker light" data-en="TAKE THE NEXT STEP" data-ar="اتخذ خطوتك القادمة">TAKE THE NEXT STEP</span><h2 data-en="Ready to shape the<br><em>future of health supply?</em>" data-ar="هل أنت مستعد لصناعة<br><em>مستقبل الإمداد الصحي؟</em>">Ready to shape the<br><em>future of health supply?</em></h2><p data-en="Registration will be managed through the official application form. The registration link will be activated once provided by the organizer." data-ar="سيتم التسجيل من خلال نموذج التقديم الرسمي. وسيتم تفعيل رابط التسجيل فور استلامه من الجهة المنظمة.">Registration will be managed through the official application form. The registration link will be activated once provided by the organizer.</p><a class="button button-white" id="registrationLink" href="#register" aria-disabled="true"><span data-en="Registration link coming soon" data-ar="رابط التسجيل قريبًا">Registration link coming soon</span> ↗</a></div>
+      <div class="register-side"><div class="big-plus">✚</div><span>UPA<br>LEARNING<br>INITIATIVE</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">UPA</span><span class="brand-copy"><strong>Unified Procurement Authority</strong><small>Learning & Development</small></span></a>
+    <p data-en="Digital Health Supply Chain Diploma · 2026" data-ar="دبلومة سلاسل الإمداد للصحة الرقمية · ٢٠٢٦">Digital Health Supply Chain Diploma · 2026</p>
+    <button id="backTop" class="back-top" type="button" aria-label="Back to top">↑</button>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
